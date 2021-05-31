@@ -1,7 +1,7 @@
 <! DOCTYPE html >
 <html  lang = " fr " >
 
-<tête >
+<header >
   <meta  charset = " UTF-8 " />
   <meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " />
   <!-Le titre de la page->
@@ -9,10 +9,10 @@
   <! - Icone de l'onglet ->
   <link  rel = " icône de raccourci " href = " html-logo.png " />
   <link  rel = " stylesheet " href = " https://use.fontawesome.com/releases/v5.8.2/css/all.css " />
-</tête >
+</header >
 
-<corps >
-  <en- tête >
+<body >
+  <header >
     <h1 > Texte - Titre H1 </h1 >
     <p >
       <em > em pour mettre en italique </em > ,
@@ -75,9 +75,9 @@
 
     <div >
       <h5 > <span > &#9814; </span > Liens - Titre H5 </h5 >
-      <A  href = " https://htmlcheatsheet.com/ " cible =" _blank " > HTML Cheatsheet </a >
+      <A  href = " https://google.com/ " link =" _blank " > HTML Google </a >
       <Br />
-      <A  href = " https://www.toptal.com/designers/htmlarrows/symbols/ " cible =" _blank " > Icones Natifs en HTML </a >
+      <A  href = " https://www.toptal.com/designers/htmlarrows/symbols/ " link =" _blank " > Icones Natifs en HTML </a >
     </div >
 
     <div >
@@ -91,7 +91,7 @@
     <h2 > Formulaire </h2 >
     <form  action = " /action.php " method = " post " >
       <label  for = " name " > Nom </label >
-      <Entrée  id = " nom " type =" texte " espace réservé =" Entrez Votre nom " /> <br />
+      <input  id = " nom " type =" texte " espace réservé =" Entrez Votre nom " > <br />
 
       <label  for = " number " > Entrez votre âge </label >
       <input  type = " number " id = " number-age " value = " 15 " oninput = " document.getElementById ('range-age'). value = this.value " >
@@ -117,7 +117,7 @@
         <label  for = " cat " > Chat </label >
       </div >
 
-      <Textarea  Col. = " 20 " lignes =" 5 " espace réservé =" Votre message ... " > </textarea > <br />
+      <Textarea  Col. = " 20 " rows =" 5 " espace réservé =" Votre message ... " > </textarea > <br />
 
       <! - Case à cocher d'entrée ->
       <label > <input type = " case " /> les Accepter CGV </label >  <br />
@@ -131,13 +131,13 @@
     <Br />
     <A  href = " avis.txt " téléchargement =" nom-du-fichier " > Télécharger la notification </a >
     <détails >
-      <résumé > Plus d'infos </résumé >
+      <summary > Plus d'infos </summary >
       <p >
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
         repellendus.
       </p >
     </détails >
   </footer >
-</corps >
+</body >
 
 </html >
