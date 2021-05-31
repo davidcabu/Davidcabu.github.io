@@ -91,10 +91,10 @@
     <h2 > Formulaire </h2 >
     <form  action = " /action.php " method = "post" >
       <label  for = "name" > Nom </label>
-      <input  id = "nom" type ="texte" espace réservé ="Entrez Votre nom" /><br/>
+      <input  id = "nom" type ="texte" placeholder ="Entrez Votre nom" /><br/>
 
-      <label  for = " number " > Entrez votre âge </label >
-      <input  type = " number " id = " number-age " value = " 15 " oninput = " document.getElementById ('range-age'). value = this.value " />
+      <label  for = "number" > Entrez votre âge </label>
+      <input  type = "number" id = "number-age" value = "15" oninput = "document.getElementById ('range-age'). value =this.value" />
       <input  type = " range " id = " range-age " min = " 0 " max = " 100 "
         oninput =" document.getElementById('number-age').value=this.value "/><br/>
 
@@ -110,34 +110,34 @@
         <input type = "radio" name = "type" id = "human" checked/>
         <label for = "human">Humain</label>
 
-        <input  type = "radio" name = "type" id = "dog"/>
-        <label  for = "dog" >Chien</label>
+        <input type = "radio" name = "type" id = "dog"/>
+        <label for = "dog" >Chien</label>
 
-        <input  type = "radio" name = "type" id = "cat"/>
-        <label  for = "cat" >Chat</label>
+        <input type = "radio" name = "type" id = "cat"/>
+        <label for = "cat" >Chat</label>
       </div>
 
-      <Textarea  Cols = " 20 " rows =" 5 " espace réservé =" Votre message ... " > </textarea> <br/>
+      <Textarea Cols = " 20 " rows =" 5 " placeholder =" Votre message ... " > </textarea> <br/>
 
       <! - Case à cocher d'entrée ->
-      <label > <input type = " case " /> les Accepter CGV </label>  <br/>
-      <input  type = " submit " value = " Submit "/>
-    </form >
-  </section >
-  <Br />
+      <label><input type = "case" /> les Accepter CGV </label><br/>
+      <input  type = "submit" value = "Submit"/>
+    </form>
+  </section>
+  <br/>
   <! - Mail & envoi de fichiers ->
-  <footer >
-    <A  href = " mailto: cabu.david@gmail.com " > Ecrivez-moi! </a >
-    <Br />
-    <A  href = " avis.txt " téléchargement =" nom-du-fichier " > Télécharger la notification </a >
-    <détails >
-      <summary > Plus d'infos </summary >
-      <p >
+  <footer>
+    <a href = " mailto: cabu.david@gmail.com " > Ecrivez-moi! </a>
+    <Br/>
+    <a href = "avis.txt" téléchargement ="nom-du-fichier" > Télécharger la notification </a>
+    <détails>
+      <summary> Plus d'infos </summary>
+      <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
         repellendus.
-      </p >
-    </détails >
-  </footer >
-</body >
+      </p>
+    </détails>
+  </footer>
+</body>
 
-</html >
+</html>
